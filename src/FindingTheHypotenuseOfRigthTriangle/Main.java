@@ -19,7 +19,7 @@ public class Main {
         perimeterOfTriangle = firstPerpendicularEdge + secondPerpendicularEdge + hypotenuse;
         System.out.println("Üçgenin Çevresi : " + perimeterOfTriangle);
 
-        u = perimeterOfTriangle / 2;
+        u = perimeterOfTriangle / 2;//the half of perimeter
         areaOfTriangle = Math.sqrt(u * (u-firstPerpendicularEdge) * (u-secondPerpendicularEdge) * (u-hypotenuse));
         System.out.println("Üçgenin Alanı : " + areaOfTriangle);
     }
