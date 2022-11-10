@@ -39,22 +39,18 @@ public class Main {
     }
 
     public static int sum(int firstNumber, int secondNumber){
-        int sum = firstNumber + secondNumber;
-        return sum;
+        return firstNumber + secondNumber;
     }
 
     public static int subtract(int firstNumber, int secondNumber){
-        int subtract = firstNumber - secondNumber;
-        return subtract;
+        return firstNumber - secondNumber;
     }
 
     public static int multiply(int firstNumber, int secondNumber){
-        int multiply = firstNumber * secondNumber;
-        return  multiply;
+        return firstNumber * secondNumber;
     }
 
     public static double divide(int firstNumber, int secondNumber){
-        double divide = (double) firstNumber / secondNumber;
-        return divide;
+        return (double) firstNumber / secondNumber;
     }
 }
