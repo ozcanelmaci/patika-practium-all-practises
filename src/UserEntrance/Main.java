@@ -35,7 +35,7 @@ public class Main {
                     newPassword = scn.nextLine();
                 }
                 if(counter == 4){
-                    System.out.println("5 kere hatalı şifre oluşturmayı denediniz!!!");
+                    System.out.println("3 kere hatalı şifre oluşturmayı denediniz!!!");
                 }else {
                     System.out.println("Şifre oluşturuldu.");
                 }
